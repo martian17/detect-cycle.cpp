@@ -1,5 +1,3 @@
-#include <stdbool.h>
-#include <stdint.h>
 #include <vector>
 #include <iostream>
 #include <unordered_map>
@@ -98,7 +96,7 @@ int main(){
     g.addEdge("d", "f");
     g.addEdge("a", "x");
     g.addEdge("x", "f");
-    //g.addEdge("f", "a"); //this one creates a cycle a->x->f->a. comment out and create a cycle.
+    //g.addEdge("f", "a"); //this line creates a cycle a->x->f->a. take the comment off and create a cycle.
     g.removeEdge("a", "w");//removing a non-existing edge should do nothing
     g.print();
     
