@@ -3,7 +3,6 @@
 #include <vector>
 #include <iostream>
 #include <unordered_map>
-enum Flags {UNUSED, PROCESSING, USED};
 
 //useful aliases
 using string = std::string;
